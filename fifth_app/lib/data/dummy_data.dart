@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:meals/models/category.dart';
-import 'package:meals/models/meal.dart';
+import 'package:fifth_app/models/category.dart';
+import 'package:fifth_app/models/meal.dart';
 
 // Constants in Dart should be written in lowerCamelcase.
 const availableCategories = [
@@ -67,8 +67,7 @@ const dummyMeals = [
     title: 'Spaghetti with Tomato Sauce',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+    imageUrl:"assets/images/1st.jpg",
     duration: 20,
     ingredients: [
       '4 Tomatoes',
